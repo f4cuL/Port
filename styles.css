@@ -1,0 +1,35 @@
+#inicio
+{
+    font-size: large;
+    border-radius: 10px;
+    animation-name: movimiento;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+
+}
+
+@keyframes movimiento
+{
+    0%{transform translateY10px}
+    25%{transform: translateY(20px)}
+    50%{transform: translateY(0px)}
+    75%{transform: translateY(20px)}
+    100%{transform: translateY(0px)}
+}
+#tarjeta
+{
+    font-size: x-large;
+    border: black solid 1px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.089);
+    color: white;
+}
+.fotos
+{
+    text-align: center;
+}
+
+body
+{
+    background-color: #25283D;
+}
