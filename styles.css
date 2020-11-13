@@ -7,7 +7,6 @@
     animation-iteration-count: infinite;
 
 }
-
 @keyframes movimiento
 {
     0%{transform translateY10px}
